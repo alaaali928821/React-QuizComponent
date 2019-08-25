@@ -5,9 +5,9 @@ import React, { Component } from 'react'
 class QuizQuestionButton extends Component{
     render(){
         return(
-            <i>
+            <li>
                 <button>{this.props.button_text}</button>
-            </i>
+            </li>
         )
     }
 }
